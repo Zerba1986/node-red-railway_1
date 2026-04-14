@@ -1,0 +1,11 @@
+{
+  "name": "node-red-railway",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node-red -p $PORT -u /data -s /data/settings.js"
+  },
+  "dependencies": {
+    "node-red": "^4.1.8"
+  }
+}
