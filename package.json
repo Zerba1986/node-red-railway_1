@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "start": "node-red --settings ./data/settings.js --userDir ./data -p $PORT -a 0.0.0.0"
+    "start": "cd node-red-railway_1 && node-red --settings ./data/settings.js --userDir ./data -p $PORT -a 0.0.0.0"
   },
   "dependencies": {
     "node-red": "^4.1.8"
